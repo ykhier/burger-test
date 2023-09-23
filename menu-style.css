@@ -84,7 +84,6 @@ body {
     .burger-image {
         width:auto;
         max-width:50%;
-        height: auto; /* Maintain image aspect ratio */
     }
 
     .burger-details {
@@ -94,17 +93,17 @@ body {
     }
 
     .burger-name {
-        font-size: 18px;
+        font-size: 15px;
         margin: 0;
     }
 
     .burger-description {
-        font-size: 14px;
+        font-size: 10px;
         color: #666;
     }
 
     .burger-price {
-        font-size: 18px;
+        font-size: 13px;
         font-weight: bold;
         margin: 10px 0;
     }
