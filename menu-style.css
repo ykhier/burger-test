@@ -26,7 +26,7 @@ body {
 .burger-image {
     width: 150px;
     height: 100%;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 8px 0px 8px 8px;
 }
 
 .burger-details {
@@ -73,8 +73,6 @@ body {
 
     .cards {
         width: 100%;
-        flex-direction: column; /* Stack cards vertically on small screens */
-        align-items: center; /* Center-align cards on small screens */
     }
 
     .burger-card {
@@ -92,7 +90,6 @@ body {
         max-width: 100%;
         padding: 10px; /* Add padding for better spacing */
         /* Remove or omit the overflow property to allow text to wrap naturally */
-        text-align:center;
     }
 
     .burger-name {
