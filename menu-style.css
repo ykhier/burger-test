@@ -19,7 +19,6 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
     width: 300px;
     margin:10px;
 }
@@ -67,7 +66,7 @@ body {
 
 
 @media screen and (max-width: 600px) {
-       body {
+    body {
         font-size: 16px; /* Adjust the overall font size for better mobile readability */
     }
 
@@ -78,12 +77,13 @@ body {
     }
 
     .burger-card {
-        width: 90%;
+        width: 300px; /* Adjust the fixed width as per your design */
         margin: 10px 0; /* Add margin to separate cards on small screens */
     }
 
     .burger-image {
-        width: 100%;
+        width: auto;
+        max-width: 50%; /* Limit maximum width to 50% */
         height: auto; /* Maintain image aspect ratio */
     }
 
@@ -91,6 +91,7 @@ body {
         max-width: 100%;
         text-align: center;
         padding: 10px; /* Add padding for better spacing */
+        /* Remove or omit the overflow property to allow text to wrap naturally */
     }
 
     .burger-name {
@@ -110,7 +111,17 @@ body {
     }
 
     .order-button {
-        font-size: 16px;
-        padding: 8px 12px; /* Adjust button padding for smaller screens */
+        font-size: 16px; /* Adjust button font size for smaller screens */
+        padding: 10px 20px; /* Increase button padding for better tapability on touch devices */
+        background-color: #ff5733; /* Background color */
+        color: white; /* Text color */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
     }
+
+        .order-button:hover {
+            background-color: #ff3013; /* Hover background color */
+        }
 }
