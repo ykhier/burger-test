@@ -92,6 +92,7 @@ body {
         max-width: 100%;
         padding: 10px; /* Add padding for better spacing */
         /* Remove or omit the overflow property to allow text to wrap naturally */
+        text-align:center;
     }
 
     .burger-name {
