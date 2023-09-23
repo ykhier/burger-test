@@ -84,26 +84,26 @@ body {
     .burger-image {
         width:auto;
         max-width:50%;
+        height: auto; /* Maintain image aspect ratio */
     }
 
     .burger-details {
-        max-width: 120px;
+        max-width:  100%;
         padding: 10px; /* Add padding for better spacing */
-        
     }
 
     .burger-name {
-        font-size: 15px;
+        font-size: 18px;
         margin: 0;
     }
 
     .burger-description {
-        font-size: 10px;
+        font-size: 14px;
         color: #666;
     }
 
     .burger-price {
-        font-size: 13px;
+        font-size: 18px;
         font-weight: bold;
         margin: 10px 0;
     }
