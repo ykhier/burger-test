@@ -90,7 +90,6 @@ body {
 
     .burger-details {
         max-width: 100%;
-        text-align: center;
         padding: 10px; /* Add padding for better spacing */
         /* Remove or omit the overflow property to allow text to wrap naturally */
     }
